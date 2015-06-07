@@ -15,4 +15,4 @@ for i = 1:n
         K(i,j) = exp(-norm(X(i,:) - X(j,:))/100);
     end
 end
-[alpha,b] = svdd(K,y',0.25,0.00001);
+[alpha,b] = svdd(K,y',0.20,0.00001);

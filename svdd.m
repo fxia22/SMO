@@ -1,34 +1,38 @@
 function [alpha,mu] = svdd(K, y, C, tol)
 global SVDD;
 
-ntp = size(K,1);
+
 %recompute C
 %initialize
 ii0 = find(y == 1); % positive example
+ntp = size(ii0,2);
+K = K(ii0,ii0);
 i0 = ii0(1);
 rnd = rand(ntp,1);
 rnd = rnd/sum(rnd);
 alpha_init = rnd;
-mu_init = -(K(1,1) - alpha_init(1)*K(1,1)-alpha_init'*K(:,1));
+SVDD.alpha = alpha_init;
+mu_init = -K(1,1) + 2*SVDD.alpha'*K(:,1) - SVDD.alpha'*K*SVDD.alpha;
 
 %Inicializando las variables
 SVDD.epsilon = 10^(-6); SVDD.tolerance = tol;
 SVDD.C = C;
-SVDD.alpha = alpha_init; SVDD.mu = mu_init;
+SVDD.mu = mu_init;
 SVDD.ntp = ntp; %number of training points
 
 %CACHES:
 SVDD.Kcache = K; %kernel evaluations
 for i = 1:SVDD.ntp
-    SVDD.error(i) = K(i,i) - SVDD.alpha(i)*K(i,i) - SVDD.alpha'*K(:,i)+SVDD.mu;
+    SVDD.error(i) = K(i,i) - 2*SVDD.alpha'*K(:,i) + SVDD.alpha'*K*SVDD.alpha+SVDD.mu;
 end
 numChanged = 0; examineAll = 1;
 
 %When all data were examined and no changes done the loop reachs its 
 %end. Otherwise, loops with all data and likely support vector are 
 %alternated until all support vector be found.
+
 iter = 0;
-while ((numChanged > 0) || examineAll)
+while (iter<1000&&(numChanged*numChanged > 0) || examineAll)
     numChanged = 0;
     if examineAll
         %Loop sobre todos los puntos
@@ -55,7 +59,9 @@ while ((numChanged > 0) || examineAll)
         examineAll = 1;
     end;
     fprintf('iteration number %d\n',iter);
+    MAX(iter)=-SVDD.alpha'*K*SVDD.alpha+SVDD.alpha'*diag(K);
 end;
+plot(MAX);
 alpha = SVDD.alpha';
 alpha(SVDD.alpha < SVDD.epsilon) = 0;
 alpha(SVDD.alpha > C-SVDD.epsilon) = C;
@@ -90,9 +96,11 @@ if ((r2 < -SVDD.tolerance) && (alpha2 < (SVDD.C-SVDD.epsilon))) || ((r2 > SVDD.t
     % maximizes the measure |E1-E2|. As large this value is as bigger 
     % the dual objective function becames.
     % In this first test, only support vectors will be tested.
-
     POS = find((SVDD.alpha > SVDD.epsilon) & (SVDD.alpha < (SVDD.C-SVDD.epsilon)));
     [MAX,i1] = max(abs(e2 - SVDD.error(POS)));
+    if(size(i1)>1)
+        i1=i1(1);
+    end
     if ~isempty(i1)
         if takeStep(i1, i2, e2), return;
         end;
@@ -112,6 +120,7 @@ if ((r2 < -SVDD.tolerance) && (alpha2 < (SVDD.C-SVDD.epsilon))) || ((r2 > SVDD.t
             end;
         end
     end;
+   % return;
 end; 
 %no progress possible
 RESULT = 0;
@@ -121,7 +130,14 @@ return;
 function RESULT = takeStep(i1, i2, e2)
 % for a pair of alpha indexes, verify if it is possible to execute
 % the optimisation described by Platt.
-
+% m2_=size(i2);
+% m1_=size(i1);
+% if(m2_(2)>1)
+%     i2=i2(1,1);
+% end
+% if(m1_(2)>1)
+%     i1=i1(1,1);
+% end
 global SVDD;
 RESULT = 0;
 if (i1 == i2), return; 
@@ -129,6 +145,7 @@ end;
 
 % compute upper and lower constraints, L and H, on multiplier a2
 alpha1 = SVDD.alpha(i1); alpha2 = SVDD.alpha(i2);
+
 C = SVDD.C; K = SVDD.Kcache;
 mu = SVDD.mu;
 L = max(0, alpha1+alpha2-C); H = min(C, alpha1+alpha2);
@@ -140,33 +157,33 @@ end;
 e1 = SVDD.error(i1);
 
 a = -2*K(i1,i2)+K(i1,i1)+K(i2,i2);
-b = -K(i1,i1)+K(i2,i2)+2*(alpha1+alpha2)*(K(i1,i1)-K(i1,i2));
+b = -K(i1,i1)+K(i2,i2)+2*(alpha1+alpha2)*(K(i1,i1)-K(i1,i2))+SVDD.alpha(3:SVDD.ntp)'*(K(3:SVDD.ntp,i1)-K(3:SVDD.ntp,i2));
 for i = 1:SVDD.ntp
     if (i~=i1)&&(i~=i2)
         b = b+SVDD.alpha(i)*(K(i1,i)-K(i2,i));
     end
 end
-
 clip_alpha1 = 0;
 clip_alpha2 = 0;
-alpha2new = -b/(2*a);
-if alpha2new>H
+alpha2new = b/(2*a);
+if alpha2new>=H
     alpha2new = H;
     clip_alpha2 = 1;
 end
 
-if alpha2new<L
+if alpha2new<=L
     alpha2new = L;
     clip_alpha2 = 1;
 end
 
 alpha1new = alpha1+alpha2-alpha2new;
-if alpha1new>H
+%disp(num2str(alpha1));
+if alpha1new>=H
     alpha1new = H;
     clip_alpha1 = 1;
 end
 
-if alpha1new<L
+if alpha1new<=L
     alpha1new = L;
     clip_alpha1 = 1;
 end
@@ -174,11 +191,17 @@ end
 mu1 = (alpha1new - alpha1)*K(i1,i1) + (alpha2new - alpha2)*K(1,2) + mu;
 mu2 = (alpha1new - alpha1)*K(i2,i1) + (alpha2new - alpha2)*K(2,2) + mu;
 
-if clip_alpha1 == 1
+if clip_alpha1 == 0
     munew = mu1;
-elseif clip_alpha2 == 1
+end
+if clip_alpha2 == 0
     munew = mu2;
-else
+end
+
+if clip_alpha1==1&&clip_alpha2==1
+    munew = (mu1+mu2)/2;
+end
+if clip_alpha1==0&&clip_alpha2==0
     munew = (mu1+mu2)/2;
 end
 
@@ -190,7 +213,9 @@ end;
 %SMO.error = SMO.error + w1*K(:,i1) + w2*K(:,i2) + bold - SMO.bias;
 %SMO.error(i1) = 0.0; SMO.error(i2) = 0.0;
 % update vector of Lagrange multipliers
-SVDD.alpha(i1) = alpha1new; SVDD.alpha(i2) = alpha2new;
+%disp(num2str(alpha1new));
+SVDD.alpha(i1) = alpha1new;
+SVDD.alpha(i2) = alpha2new;
 SVDD.mu = munew;
 for i = 1:SVDD.ntp
     SVDD.error(i) = K(i,i) - SVDD.alpha(i)*K(i,i) - SVDD.alpha'*K(:,i)+SVDD.mu;
