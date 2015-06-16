@@ -1,0 +1,1 @@
+run testsvdd2.m in that folder

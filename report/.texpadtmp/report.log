@@ -1,0 +1,470 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.20)  16 JUN 2015 23:55
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2012/05/07 4.8.3
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2012/05/07 4.8.3
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2012/05/07 4.8.3
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box30
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen114
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count101
+\lst@gtempboxa=\box31
+\lst@token=\toks22
+\lst@length=\count102
+\lst@currlwidth=\dimen115
+\lst@column=\count103
+\lst@pos=\count104
+\lst@lostspace=\dimen116
+\lst@width=\dimen117
+\lst@newlines=\count105
+\lst@lineno=\count106
+\lst@maxwidth=\dimen118
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count107
+\lst@skipnumbers=\count108
+\lst@framebox=\box32
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks23
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2012/05/07 4.8.3
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2012/05/07 4.8.3
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2012/05/07 4.8.3
+)
+
+LaTeX Warning: Unused global option(s):
+    [article].
+
+(/Users/xiafei/Desktop/smo/report/.texpadtmp/report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen127
+\scratchbox=\box33
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen128
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count118
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=624.25346pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for C70+gbsn on input line 23.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
+File: c70gbsn.fd 2012/05/07 4.8.3
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
+File: c70gbsn.fdx 2012/05/07 4.8.3
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/xiafei/Desktop/smo/report/.texpadtmp/report.toc)
+\tf@toc=\write3
+\openout3 = `report.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+[3]
+Overfull \hbox (7.77875pt too wide) in paragraph at lines 88--96
+\OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ [] [] \OML/cmm/m/it/12 [][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; x[]\OT1/cmr/m/n/12 ) + ((\OML/cmm/m/it/12 x[]; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 2 [] \OML/cmm/m/it/12 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; x[]\OT1/cmr/m/n/12 ) + 2 [] \OML/cmm/m/it/12 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]; x[]\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ^^U \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--96
+
+ []
+
+
+Overfull \hbox (3.04886pt too wide) in paragraph at lines 108--109
+[]\C70/gbsn/m/n/12/99 ñ \C70/gbsn/m/n/12/51 H \C70/gbsn/m/n/12/68 9 \C70/gbsn/m/n/12/63 n$\OML/cmm/m/it/12 lagrange$\C70/gbsn/m/n/12/67 Å \C70/gbsn/m/n/12/50 < \C70/gbsn/m/n/12/67 a \C70/gbsn/m/n/12/4e ˆ \C70/gbsn/bx/n/12/53 Ô \C70/gbsn/m/n/12/4e Â \C70/gbsn/m/n/12/5f ó \C70/gbsn/m/n/12/52 0\OT1/cmr/m/n/12 a,\C70/gbsn/m/n/12/71 6 \C70/gbsn/m/n/12/54 ^^N \C70/gbsn/m/n/12/68 9 \C70/gbsn/m/n/12/63 n \C70/gbsn/m/n/12/8f ì \C70/gbsn/m/n/12/51 ˙ \C70/gbsn/m/n/12/76 Ñ$\OML/cmm/m/it/12 $\C70/gbsn/m/n/12/76 Ñ \C70/gbsn/m/n/12/50 <\OT1/cmr/m/n/12 ,\C70/gbsn/m/n/12/68 9 \C70/gbsn/m/n/12/63 n \C70/gbsn/bx/n/12/53 ü \C70/gbsn/m/n/12/95 Ó \C70/gbsn/m/n/12/98 ò \C70/gbsn/m/n/12/76 Ñ\OT1/cmr/m/n/12 KKT\C70/gbsn/m/n/12/67 a
+ []
+
+[4] [5]
+Package epstopdf Info: Source file: <banana.eps>
+(epstopdf)                    date: 2015-06-16 22:25:33
+(epstopdf)                    size: 380123 bytes
+(epstopdf)             Output file: <banana-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-16 23:33:49
+(epstopdf)                    size: 59269 bytes
+(epstopdf)             Command: <repstopdf --outfile=banana-eps-converted-to.pdf banana.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+ <banana-eps-converted-to.pdf, id=94, 1028.84375pt x 489.83pt>
+File: banana-eps-converted-to.pdf Graphic file (type pdf)
+ <use banana-eps-converted-to.pdf>
+Package pdftex.def Info: banana-eps-converted-to.pdf used on input line 179.
+(pdftex.def)             Requested size: 361.34999pt x 172.041pt.
+Package epstopdf Info: Source file: <precision.eps>
+(epstopdf)                    date: 2015-06-16 23:46:30
+(epstopdf)                    size: 8581 bytes
+(epstopdf)             Output file: <precision-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-16 23:48:16
+(epstopdf)                    size: 5185 bytes
+(epstopdf)             Command: <repstopdf --outfile=precision-eps-converted-to.pdf precision.eps>
+(epstopdf)             \includegraphics on input line 192.
+Package epstopdf Info: Output file is already uptodate.
+ <precision-eps-converted-to.pdf, id=95, 562.1pt x 421.575pt>
+File: precision-eps-converted-to.pdf Graphic file (type pdf)
+ <use precision-eps-converted-to.pdf>
+Package pdftex.def Info: precision-eps-converted-to.pdf used on input line 192.
+(pdftex.def)             Requested size: 289.07999pt x 216.80798pt.
+ [6 <./banana-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <recall.eps>
+(epstopdf)                    date: 2015-06-16 23:46:38
+(epstopdf)                    size: 8737 bytes
+(epstopdf)             Output file: <recall-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-16 23:48:17
+(epstopdf)                    size: 5336 bytes
+(epstopdf)             Command: <repstopdf --outfile=recall-eps-converted-to.pdf recall.eps>
+(epstopdf)             \includegraphics on input line 198.
+Package epstopdf Info: Output file is already uptodate.
+ <recall-eps-converted-to.pdf, id=104, 562.1pt x 421.575pt>
+File: recall-eps-converted-to.pdf Graphic file (type pdf)
+ <use recall-eps-converted-to.pdf>
+Package pdftex.def Info: recall-eps-converted-to.pdf used on input line 198.
+(pdftex.def)             Requested size: 289.07999pt x 216.80798pt.
+Package epstopdf Info: Source file: <prec.eps>
+(epstopdf)                    date: 2015-06-16 23:46:51
+(epstopdf)                    size: 8586 bytes
+(epstopdf)             Output file: <prec-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-16 23:48:18
+(epstopdf)                    size: 5151 bytes
+(epstopdf)             Command: <repstopdf --outfile=prec-eps-converted-to.pdf prec.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+ <prec-eps-converted-to.pdf, id=105, 562.1pt x 421.575pt>
+File: prec-eps-converted-to.pdf Graphic file (type pdf)
+ <use prec-eps-converted-to.pdf>
+Package pdftex.def Info: prec-eps-converted-to.pdf used on input line 205.
+(pdftex.def)             Requested size: 289.07999pt x 216.80798pt.
+ [7 <./precision-eps-converted-to.pdf> <./recall-eps-converted-to.pdf>] <shit.pdf, id=120, 357.34875pt x 264.04669pt>
+File: shit.pdf Graphic file (type pdf)
+ <use shit.pdf>
+Package pdftex.def Info: shit.pdf used on input line 214.
+(pdftex.def)             Requested size: 289.07999pt x 213.60266pt.
+ [8 <./prec-eps-converted-to.pdf> <./shit.pdf>] [9] (/Users/xiafei/Desktop/smo/report/.texpadtmp/report.aux) ) 
+Here is how much of TeX's memory you used:
+ 5846 strings out of 493315
+ 81590 string characters out of 6137904
+ 159356 words of memory out of 5000000
+ 9140 multiletter control sequences out of 15000+600000
+ 45386 words of font info for 165 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,17n,32p,487b,1206s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu00.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu30.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu57.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu58.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu59.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gb
+snu/gbsnu5b.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu61.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6e.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu70.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu71.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu77.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/
+gbsnu7a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu83.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu85.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu86.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8c.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu90.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu91.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu99.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
+Output written on /Users/xiafei/Desktop/smo/report/.texpadtmp/report.pdf (9 pages, 581424 bytes).
+PDF statistics:
+ 415 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
