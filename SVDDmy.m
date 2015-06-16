@@ -25,8 +25,8 @@ while 1
      end  
      i1=POS1(i1);
       i2=POS2(i2);
-    fprintf('%d   %d  %f  %f\n',i1,i2,MAX,MIN);
-  disp([C-alpha(i2),alpha(i1),( error(i2)- error(i1))/2/(K(i1,i1)+K(i2,i2)-2*K(i1,i2))]);
+    %fprintf('%d   %d  %f  %f\n',i1,i2,MAX,MIN);
+    %disp([C-alpha(i2),alpha(i1),( error(i2)- error(i1))/2/(K(i1,i1)+K(i2,i2)-2*K(i1,i2))]);
 
     lamda=min([C-alpha(i2),alpha(i1),( error(i2)- error(i1))/2/(K(i1,i1)+K(i2,i2)-2*K(i1,i2))]);        %???
     for i = 1:ntp

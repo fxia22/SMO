@@ -11,11 +11,15 @@ C=0.20;
 %N = size(y,1);
 
 
-
- data = importdata('cancer.csv');
+ data = importdata('iris.data2');
  y = data(:,end);
- X_all = data(:,1:9);
+ X_all = data(:,1:4);
  N = size(y,1);
+ 
+%  data = importdata('cancer.csv');
+%  y = data(:,end);
+%  X_all = data(:,1:9);
+%  N = size(y,1);
 
 %data = importdata('ecoli.csv');
 %y = data(:,end);
